@@ -31,7 +31,7 @@ def create_climate_diagram(df,
                            prec_col:str, 
                            title:str, 
                            filename:str, 
-                           temp_min:int=15, 
+                           temp_min:int=-15, 
                            temp_max:int=20, 
                            prec_min:int=0, 
                            prec_max:int=370):    
